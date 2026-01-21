@@ -98,3 +98,33 @@ body.login-body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.table-container {
+  width: 90%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: #0066cc;
+  color: white;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a6a3a3;
+}
