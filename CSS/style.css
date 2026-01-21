@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(153, 207, 225);
+  color: black;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+body > div {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 25px 35px;
+  border-radius: 15px;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
