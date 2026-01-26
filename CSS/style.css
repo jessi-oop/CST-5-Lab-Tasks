@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+} /* THis is for the whole browser*/
 
+/*These are the styling for the biography file*/
 body {
   background-color: rgb(153, 207, 225);
   color: black;
-  line-height: 1.6;
+  line-height: 1.5;
   padding: 30px;
 }
 
@@ -53,6 +54,7 @@ a {
   text-decoration: underline;
 }
 
+/* These are the styling for the login file*/
 body.login-body {
   height: 100px;
   margin: 300px;
@@ -99,6 +101,11 @@ body.login-body {
   cursor: pointer;
 }
 
+.login-form-group p.register-redirect {
+  text-align: center;
+}
+
+/* These are the styling for the table file */
 .table-container {
   width: 90%;
   max-width: 800px;
@@ -127,4 +134,56 @@ td {
 
 tbody tr:nth-child(even) {
   background-color: #a6a3a3;
+}
+
+/*These are the styling for the register form*/
+
+body.register-body {
+  height: 100px;
+  margin: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form-group label {
+  margin-bottom: 5px;
+}
+
+.register-form-group input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.register-form-group input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form-group p.login-redirect {
+  text-align: center;
 }
